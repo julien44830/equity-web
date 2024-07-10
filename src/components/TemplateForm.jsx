@@ -6,7 +6,7 @@ function TemplateForm({ data, component }) {
   // console.log('%c⧭tremble ', 'color: #735656', tremble);
 
   useEffect(() => {
-    if (component === 'Parkison') {
+    if (component === 'Parkinson') {
       setTremble(true);
     } else {
       setTremble(false);
