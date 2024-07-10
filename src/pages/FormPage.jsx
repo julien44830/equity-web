@@ -8,7 +8,7 @@ import AnimateForm from '../components/AnimateForm'
 const data = {
   BlindForm: {
     component: BlindForm,
-    classForm:'blindForm',
+    classForm: 'blindForm',
     name: "Cécité",
     h2: "Cécité",
     p: "Nous vous proposons d'expérimenter le remplissage du formulaire caché à droite en se mettant à la place d'une personne aveugle. Pour cette immersion, télécharger le lecteur d'écran NVDA.",
@@ -27,11 +27,11 @@ const data = {
     h2: "Trouble de l'attention",
     p: "Le trouble de l'attention, ou TDA (Trouble Déficitaire de l'Attention), est une condition neurologique caractérisée par des difficultés à maintenir l'attention, à contrôler les impulsions et à réguler son comportement. Les personnes atteintes peuvent être facilement distraites, avoir du mal à terminer les tâches et être impulsives. Ce trouble peut interférer significativement avec la vie quotidienne, notamment à l'école et au travail, nécessitant souvent une gestion adaptative et un soutien spécialisé.",
   },
-  Parkison: {
+  Parkinson: {
     component: "",
-    classForm: 'parkison',
-    name: "parkison",
-    h2: "Parkison",
+    classForm: 'parkinson',
+    name: "parkinson",
+    h2: "Parkinson",
     p: "La maladie de Parkinson est une affection neurodégénérative chronique qui affecte le système nerveux central. Elle se caractérise par la diminution progressive de la production de dopamine, un neurotransmetteur crucial pour le contrôle des mouvements et d'autres fonctions cognitives. Les symptômes incluent tremblements, raideur musculaire, lenteur des mouvements et problèmes d'équilibre. Bien qu'il n'existe pas de remède, divers traitements peuvent atténuer les symptômes et améliorer la qualité de vie des patients.",
   },
 };
@@ -40,7 +40,7 @@ const data = {
 
 function FormPage() {
   const [handicap, setHandicap] = useState(0);
-  const [component, setComponent] = useState("Parkison")
+  const [component, setComponent] = useState("Parkinson")
   const [classForm, setClassForm] = useState("")
   const ComponentToRender = data[component].component;
 

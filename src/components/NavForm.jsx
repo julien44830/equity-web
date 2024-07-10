@@ -11,7 +11,7 @@ function NavForm({ setComponent }) {
     <fieldset role="radiogroup" onChange={selectHandicap} className="section-radio">
       <legend>Selectionnez votre handicap:</legend>
       <label className="radio" htmlFor="cecite">
-        <input type="radio" id="cecite" name="handicap" value="BlindForm"/>
+        <input type="radio" id="cecite" name="handicap" value="BlindForm" />
         <span className="inputRadioName">Cécité</span></label>
 
       <label className="radio" htmlFor="daltonisme">
@@ -22,12 +22,12 @@ function NavForm({ setComponent }) {
         <input type="radio" id="trouble" name="handicap" value="Trouble" />
         <span className="inputRadioName">Trouble de l'attention</span></label>
 
-      <label className="radio" htmlFor="parkison">
-        <input type="radio" id="parkison" name="handicap" value="Parkison" />
-        <span className="inputRadioName">Parkison</span></label>
+      <label className="radio" htmlFor="parkinson">
+        <input type="radio" id="parkinson" name="handicap" value="Parkinson" />
+        <span className="inputRadioName">Parkinson</span></label>
       <NavLink to="/eye-tracking">
         <label className="radio" htmlFor="tetraplegie">
-          <input  type="radio" id="tetraplegie" name="handicap" value="tetraplegie" />
+          <input type="radio" id="tetraplegie" name="handicap" value="tetraplegie" />
           <span className="inputRadioName">Tétraplégie</span></label>
       </NavLink>
     </fieldset>
